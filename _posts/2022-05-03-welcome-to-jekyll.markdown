@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title:  "NIMROD TESTING"
 date:   2022-05-03 12:14:34 -0500
 categories: jekyll update
