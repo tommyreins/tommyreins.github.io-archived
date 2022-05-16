@@ -25,9 +25,11 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "blog.expeditionimrod" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: expeditionimrod
+fixed_navbar: top
+permalink: pretty
 
 # Build settings
-remote_theme: pages-themes/cayman@v0.2.0
+remote_theme: chrisrhymes/bulma-clean-theme
 plugins:
   - jekyll-feed
   - jekyll-remote-theme # add this line to the plugins list if you already have one
@@ -40,7 +42,8 @@ plugins:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
+include:
+ - assets/css/
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
