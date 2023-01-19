@@ -7,7 +7,8 @@ $primary: #FCE205;
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@500;800&display=swap');
 
-$family-serif: "Fira Code", serif;
+$family-serif: "Fira Sans Condensed", serif;
+
 $family-primary: $family-serif;
 // Import Main CSS file from theme
 @import "main";
